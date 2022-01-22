@@ -1,0 +1,28 @@
+{
+    "sorular":[
+        {
+            "soru": "Aşağıdakilerden hangisi istemci taraflı bir web programlama dilidir?",
+            "secenekA": "PHP",
+            "secenekB": "ASP",
+            "secenekC": "JavaScript",
+            "secenekD": "JSON",
+            "dogruCevap": "secenekC"
+        },
+        {
+            "soru": "Aşağıdakilerden hangisi JavaScript ile nesne yakalama fonksiyonlarından değildir?",
+            "secenekA": "getElementByID()",
+            "secenekB": "getElementsClassName()",
+            "secenekC": "getSelector()",
+            "secenekD": "querySelectorAll()",
+            "dogruCevap": "secenekC"
+        },
+        {
+            "soru": "Aşağıdakilerden hangisi JavaScript ile ekrana yazdırma fonksiyonlarından değildir?",
+            "secenekA": "alert()",
+            "secenekB": "console.log()",
+            "secenekC": "document.Write()",
+            "secenekD": "addEventListener()",
+            "dogruCevap": "secenekD"
+        }
+    ]
+}
