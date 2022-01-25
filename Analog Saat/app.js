@@ -11,5 +11,4 @@ function tiktak() {
     min.style.transform = `translateX(-50%) rotate(${180 + minute *  6}deg)`;
     hours.style.transform = `translateX(-50%) rotate(${180 + hour *  30}deg)`;
 }
-
 setInterval(tiktak, 1000);
