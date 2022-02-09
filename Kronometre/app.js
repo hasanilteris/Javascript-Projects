@@ -8,7 +8,6 @@ document.getElementById('startTimer').addEventListener('click', () =>{
     }
     currentInterval = setInterval(displayTimer,10);
 });
-
 document.getElementById('pauseTimer').addEventListener('click',() => {
     clearInterval(currentInterval);
 });
