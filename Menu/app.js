@@ -86,7 +86,6 @@ const menu = [
     displayMenuItems(menu);
     displayMenuButtons();
   });
-  
   function displayMenuItems(menuItems) {
     let displayMenu = menuItems.map(function (item) {
   
