@@ -3,6 +3,7 @@ const min = document.querySelector(".mins");
 const hours = document.querySelector(".hours");
 
 function tiktak() {
+    
     let second = new Date().getSeconds();
     let minute = new Date().getMinutes();
     let hour = new Date().getHours();
@@ -11,4 +12,5 @@ function tiktak() {
     min.style.transform = `translateX(-50%) rotate(${180 + minute *  6}deg)`;
     hours.style.transform = `translateX(-50%) rotate(${180 + hour *  30}deg)`;
 }
+
 setInterval(tiktak, 1000);
