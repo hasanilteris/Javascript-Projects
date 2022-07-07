@@ -1,6 +1,7 @@
 body{
     font-family: 'Montserrat', sans-serif !important;
 }
+
 #bmi-box{
     background-color: #424242;
     color: #fff;
@@ -11,6 +12,7 @@ body{
     padding: 20px;
     border-radius: 10px;
 }
+
 #bmi-calculater h2 {
     text-align: center;
     margin-bottom: 100px;
