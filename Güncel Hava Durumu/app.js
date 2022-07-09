@@ -5,7 +5,6 @@ const setQuery = (e) => {
 if(e.keyCode =='13')
 getResult(searchBar.value)
 }
-
 const getResult = (cityName) => {
     let query = `${url}weather?q=${cityName}&appid=${key}&units=metric&lang=tr`
     fetch(query)
@@ -28,7 +27,6 @@ const displayResult = (result) => {
     let minmax = document.querySelector('.minmax')
     minmax.innerText = `${Math.round(result.main.temp_min)}°C / ${Math.round(result.main.temp_max)}°C `
 }
-
 const searchBar = document.getElementById('searchBar')
 searchBar.addEventListener('keypress',setQuery)
             
