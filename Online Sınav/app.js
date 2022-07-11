@@ -1,5 +1,4 @@
 let sunucudanGelen;
-
 const baglanti = new XMLHttpRequest();
 
 baglanti.onreadystatechange = function() {
